@@ -29,6 +29,8 @@ header{
     header>h1{
         padding-top: 50px;
         font-variant: small-caps;
+        font-size: 5vw;
+        
     }
     header>p{
         padding-bottom: 50px;
@@ -47,6 +49,8 @@ header{
         line-height: 2em;
         padding-left: 30 px;
         font-family: var(--fonte3);
+        font-size: 2vw;
+        
     }
 
     section.normal{
@@ -60,7 +64,8 @@ header{
         
     }
     section.imagem>p{
-        width: 400px;
+        display:inline-block;
+        padding: 5px;
         background-color: rgb(116, 112, 112);
     }
     
